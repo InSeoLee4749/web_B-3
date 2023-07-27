@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+li,ul{
+    list-style: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.h100{
+    height: 100px;
+}
+.h200{
+    height: 200px;
+}
+.h300{
+    height: 300px;
+}
+.w400{
+    width: 400px;
+}
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+.ofh{
+    overflow: hidden;
+}
+.jcb{
+    justify-content: space-between;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+
+#hd{
+    background-color: #3F51B5;
+}
+.hd1{
+    align-items: center;
+}
+/* 대메뉴 */
+.d1li{
+    width: 150px;
+}
+.d1a{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 10px;
+}
+li:hover .d1a{
+    color: white;
+}
+.d2ul{
+    width: 100%;
+    font-size: 18px;
+    top: 100%;
+    left: 0;
+    height: 0;
+    z-index: 10000;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.d2ul a{
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+}
+.d1li:hover .d2ul{
+    background-color: black;
+    height: 8.5rem;
+}
+.d2ul a:hover{
+    background-color: #959ab6;
+}
+/* swiper */
+.swiper-wrapper{
+    width: 100000px;
+}
+/* threetab */
+#notice{
+    padding: 5px;
+}
+#notice h2{
+    margin-top: 5px;
+}
+.notice1{
+    padding: 5px;
+    margin-top: 15px;
+}
+.notice1 li{
+    font-size: 18px;
+}
+.notice1 .n_li{
+    margin-top: 4px;
+    background-color: #ccc;
+}
+.notice1 span{
+    float: right;
+}
+#gallery{
+    padding: 5px;
+}
+#gallery h2{
+    margin-top: 5px;
+}
+.gallery1{
+    padding: 5px;
+    margin-top: 15px;
+}
+.gallery1 img{
+    padding: 0px 3px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.gallery1 img:hover{
+    opacity: 1;
+}
+
+#footer{
+    background-color: #3F51B5;
+}
+.copy{
+    line-height: 100px;
+}
+.sns{
+    padding: 0px 30px;
+}
+.sns img{
+    padding: 0px 5px;
+}
+
+/* pop */
+.pop{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border: 1px border black;
+    left: 0; right: 0; bottom: 0; top: 0;
+    margin: auto;
+    z-index: 100000;
+    display: none;
+}
+.pop.show{
+    display: block;
+}
